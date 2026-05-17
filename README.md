@@ -29,7 +29,7 @@ sequenceDiagram
 ```
 
 
- Architecture Workflow:
+** Architecture Workflow:**
 Middleware (Data Retrieval): Acts as the core engine, querying historical transaction behaviors and frequencies of specific wallets from the blockchain network.
 
 Hybrid Database (MongoDB): Securely stores off-chain data, including user login credentials and mapped traditional CIC credit scores, ensuring sensitive PII (Personally Identifiable Information) remains off the public ledger.
@@ -38,7 +38,7 @@ Smart Contract Evaluation: The Solidity smart contracts receive data from the mi
 
 On-chain Validation: Leverages the immutable nature of the blockchain to verify real-time transaction states and cross-reference wallet histories.
 
- Key Features
+** Key Features**
 Traditional-to-DeFi Credit Bridging: Pioneers the application of traditional CIC credit scores within a decentralized ecosystem.
 
 Suspicious Activity Filtering: Automated tracking and flagging of irregular transaction frequencies and patterns using smart contract logic.
@@ -47,7 +47,7 @@ Hybrid Data Management: Optimized data flow separating public ledger records (on
 
 High-Performance Middleware: Efficiently routes data between the decentralized ledger, the centralized database, and the evaluating smart contracts.
 
- Tech Stack
+** Tech Stack**
 Blockchain/Smart Contracts: Solidity, Web3.js / Ethers.js
 
 Database: MongoDB (Off-chain)
