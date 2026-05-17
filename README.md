@@ -52,6 +52,6 @@ Blockchain/Smart Contracts: Solidity, Web3.js / Ethers.js
 
 Database: MongoDB (Off-chain)
 
-Backend/Middleware: Node.js / Python (Specify your backend framework)
+Backend/Middleware: Node.js / Python 
 
 Network: (e.g., Ethereum Testnet / BSC Testnet)
